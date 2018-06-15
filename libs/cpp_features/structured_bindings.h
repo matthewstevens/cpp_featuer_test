@@ -1,3 +1,6 @@
 #pragma once
 
-extern void doit();
+namespace StructuredBindings {
+	extern void BindingAnArray();
+	extern void BindingATupleType();
+};

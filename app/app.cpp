@@ -3,6 +3,6 @@
 
 int main()
 {
-	std::cout << "Hello world!" << std::endl;
-	doit();
+	StructuredBindings::BindingAnArray();
+	StructuredBindings::BindingATupleType();
 }
