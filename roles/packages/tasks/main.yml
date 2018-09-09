@@ -1,0 +1,20 @@
+- name: gcc c++ compiler
+  apt: name={{ item }} state=installed
+  with_items:
+    - gcc
+    - g++
+
+- name: vim
+  apt:
+    name: vim
+    state: present
+- name: cmake build tool
+  apt:
+    name: cmake
+    state: present
+
+- name: git version control management
+  apt:
+    name: git
+    state: present
+
